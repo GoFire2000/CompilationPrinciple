@@ -1,0 +1,22 @@
+#include <cstdio>
+using namespace std;
+const int maxn = 1010;
+
+int main(){
+    int a = 33;
+    double b = 45.3, c = 4E5, d = 4.5E+5;
+    double add1 = a + b, add2 = c + d;
+    int n; scanf("%d", &n);
+    int tot = 0;
+    for(int i = 1; i <= n; i++){
+        int val; scanf("%d", &val);
+        tot += val;
+    }
+    printf("%d\n", tot);
+    /*error*/
+    //error
+    double error1 = 3.c;
+    double error2 = 3.Ed;
+    double error3 = $;
+    return 0;
+}
